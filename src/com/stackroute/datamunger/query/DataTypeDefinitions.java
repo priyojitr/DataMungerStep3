@@ -8,10 +8,6 @@ public class DataTypeDefinitions {
 	 */
 	
 	private String[] dataTypes;
-	
-	public DataTypeDefinitions(String[] dataTypes) {
-		this.dataTypes = dataTypes;
-	}
 
 	public String[] getDataTypes() {
 		return dataTypes;
