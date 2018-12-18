@@ -8,6 +8,10 @@ public class Header {
 	 */
 	private String[] headers;
 	
+	public Header(String[] headers) {
+		this.headers = headers;
+	}
+
 	public String[] getHeaders() {
 		return headers;
 	}
